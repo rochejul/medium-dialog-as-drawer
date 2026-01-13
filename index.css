@@ -40,7 +40,9 @@ body {
   margin-bottom: 0;
   margin-left: 0;
   margin-top: 0;
-  transition: margin-left 0.7s allow-discrete;
+  transition:
+        display 0.7s allow-discrete,
+        margin-left 0.7s allow-discrete;
   width: 20rem;
 
   &:not([open]) {
