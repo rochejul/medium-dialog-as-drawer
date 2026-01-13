@@ -46,4 +46,8 @@ body {
   &:not([open]) {
     margin-left: -23rem;
   }
+
+  @starting-style {
+    margin-left: -23rem;
+  }
 }
