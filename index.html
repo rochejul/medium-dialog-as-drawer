@@ -67,6 +67,17 @@
         proin nec. Quam urna curabitur mus in.
       </p>
     </main>
-    <footer class="page-footer"></footer>
+    <footer class="page-footer">
+      <button commandfor="my-dialog" command="show-modal">Open a modal</button>
+    </footer>
+    <dialog id="my-dialog">
+      <p>A very simple modal</p>
+      <p>
+        <i><b>(Opened with only HTML)</b></i>
+      </p>
+      <form method="dialog">
+        <button>Close</button>
+      </form>
+    </dialog>
   </body>
 </html>

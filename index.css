@@ -30,3 +30,7 @@ body {
 .page-body {
   padding: 3rem;
 }
+
+.page-footer {
+  text-align: center;
+}
